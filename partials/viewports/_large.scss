@@ -1,3 +1,42 @@
-@media only screen and (min-width: 64em) { 
-    
+@media only screen and (min-width: 64em) {
+  
+    div[role="article"] {
+    padding: 20px;
+  }
+
+  #zen-intro,
+  #zen-supporting {
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-gap: 40px;
+  }
+
+  #zen-requirements {
+    display: block;
+  }
+
+  header[role="banner"] {
+    grid-column: 1/5;
+  }
+
+  .summary,
+  .explanation,
+  .benefits,
+  footer {
+    grid-column: 3/5;
+  }
+
+  .preamble {
+    grid-column: 2/4;
+    margin-bottom: 20px;
+  }
+
+  .participation,
+  .requirements {
+    grid-column: 2/4;
+  }
+
+  body {
+    margin-left: 0.25fr;
+    margin-right: 0.25fr;
+  }
 }

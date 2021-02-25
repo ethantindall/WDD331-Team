@@ -1,11 +1,75 @@
-div[role="article"]{
-    border: 1px solid red;
-    padding: 10px;
- }
- 
- body {
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Orbitron:wght@600&display=swap');
 
+h3 {
+    font-family: 'Orbitron', serif;
+}
+
+aside h3, li{
+    color: #d1f7ff;
+}
+
+p, a, li {
+    font-family: 'Barlow', sans-serif;
+}
+
+div[role="article"]{
+    padding: 10px;
+    background-color: #d1f7ff;
+}
+ 
+body {
     padding: 20px;
-    margin-left: 3%;
-    margin-right: 3%;
-  }
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #01012B;
+}
+
+#zen-intro, #zen-supporting, #zen-requirements {
+    display: grid;
+    grid-template-columns: 10px 2fr 10px;
+    grid-gap: 20px;
+}
+
+header[role="banner"] {
+    grid-column: 2;
+    text-align: center;
+    font-family: 'Orbitron', serif;
+    background-color: #00567b;
+    color: #d1f7ff;
+}
+
+abbr[title]{
+    text-decoration: none;
+}
+
+.summary, .explanation, .benefits, footer {
+    grid-column: 2/4;
+}
+
+.preamble {
+    grid-column: 1/3;
+    margin-bottom: 20px;
+}
+
+.participation, .requirements, .requirements p {
+    grid-column: 1/3;
+}
+
+//links
+div a {
+    color: #00567b;
+    &:hover {
+        color: #FF2A6D;
+    }
+}
+
+aside a, footer a {
+    color: #05d9eb;
+    &:hover {
+        color: #FF2A6D;
+    }
+}
+
+
+
+

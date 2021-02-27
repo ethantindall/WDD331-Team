@@ -3,7 +3,50 @@
     div[role="article"] {
     padding: 20px;
   }
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+  }
+.intro {
+  grid-column: 1/4;
+}
+.main {
+  grid-column: 2;
+}
+.sidebar {
+  grid-column: 1/4;
+}
+.design-archives ul {
+  margin-left: 0px;
+  padding: 0;
+}
+.design-selection {
+  position: absolute;
+  top: 750px;
+  background-color: #00567B;
+  text-align: left;
 
+  height: 600px;
+  padding: 100px 5px;
+  margin-right: 10px;
+  margin-bottom:50px;
+  clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
+  grid-column: 1/2;
+  width: 200px;
+} /* Background Gradient Transition */
+.design-selection:hover {
+  background-image: linear-gradient(to bottom right, #00567B, #01012B);
+  transition-delay: 5s;
+}
+footer {
+  flex-direction: column;
+  a {
+    padding: 5px;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+ }
+}
   #zen-intro,
   #zen-supporting {
     grid-template-columns: 1fr 1fr 2fr 1fr;

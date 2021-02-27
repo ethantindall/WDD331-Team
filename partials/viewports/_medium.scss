@@ -1,4 +1,36 @@
 @media only screen and (min-width: 40em) {
+    header {
+        text-align: center;
+        width: 100%;
+        margin: 10px auto;
+        height: 7rem;
+        background: linear-gradient(217deg, #FF2A6D, rgba(255,0,0,0) 70.71%),
+                    linear-gradient(127deg, #00567b, rgba(0,255,0,0) 70.71%);
+        clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40% , 0% 40%);
+    }
     
+    .zen-resources {
+        //clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40% , 0% 40%);
+        clip-path: polygon(0% 100%, 75% 100%, 85% 40%, 100% 40%, 100% 0%, 25% 0% , 15% 60%, 0% 60%);
+        text-align: center;
+    
+        ul {
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style-type: none;
+            width: 55%;
+            margin: 10px auto;
+            padding: 10px 0;
+            justify-content: space-between;
+         } 
+         ul li a {
+            font-size: 1.3rem;
+            text-decoration: none;
+            color: $color-5;
+            padding: 0 5px;
+            
+         }
+    } 
 }
 

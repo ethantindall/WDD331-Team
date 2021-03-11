@@ -79,48 +79,6 @@ h3 {
  }
  
  
- .zen-resources {
-    //clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40% , 0% 40%);
-    clip-path: polygon(0% 100%, 75% 100%,  100% 40%, 100% 0%, 25% 0% , 0% 60%);
-    text-align: center;
-    font-family: 'Barlow', sans-serif;
-    background-color: $color-2;
-    width: 100%;
- 
-    .resources {
-       font-family: 'Orbitron', sans-serif;
-       padding-left: 25px;
-       padding-top: 10px;
- 
-    }
-    ul {
-       display:flex;
-       flex-direction: column;
-       list-style-type: none;
-       width: 50%;
-       margin: 10px auto;
-       padding: 10px 0;
-    } 
-    ul li {
-       padding-bottom: 5px;
-    }
-    ul li a {
-       font-size: 1.3rem;
-       text-decoration: none;
-       color: $color-5;
-       
-    }
-      ul li a:hover {
-       font-size: 2rem;
-       background-color: $color-4;
-       color: $color-5;
-       transform: translate(10%);
-       -webkit-transition: .35s ease-in-out;
-       transition: .35s ease-in-out;
- 
-    }
- 
- }
  header {
     text-align: center;
     width: 100%;
@@ -142,49 +100,36 @@ h3 {
  
     }
  }
- .design-archives {
-    text-align: center;
-    ul {
-       list-style: none;
-    }
- }
- footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0; 
 
-    a {
-       background-color: #00567B;
-       padding: 5px;
-       border-radius: 3px;
-    }
- }
- .design-selection {
-   padding: 5px; 
-   padding-bottom: 100px;
-   background-color: #00567B;
-   margin-right: 10px;
-   margin-bottom:50px;
-   clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
-   grid-column: 1/2;
-   height: 400px;
-   width: 200px;
- }
- .design-selection ul {
-   list-style-type: none;
-   padding-left: 10px;
-   margin-right: 5px;
+ aside {
+   background-color: $color-2;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   text-align: center;
+   padding-bottom: 150px;
+   ul {
+     margin: 0;
+     padding: 0;
+     list-style-type:none;
    }
-   .design-selection li {
-     margin-bottom: 4px;
-   }
-   .design-selection h3{
-     padding-top:60px;
-   }
- /* Background Gradient Transition */
- .design-selection:hover {
-   background-image: linear-gradient(to bottom right, #00567B, #01012B);
-   transition-delay: 5s;
- }
+}
+
+footer {
+  grid-column: 1/-1;
+  text-align: center;
+  background-color: $color-3;
+  width: 100%;
+  padding: 30px 0;
+  a {
+    color: $color-1;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  a:hover {
+    background-color: $color-1;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+
+  }
+}

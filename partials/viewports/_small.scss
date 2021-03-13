@@ -64,7 +64,7 @@ h3 {
  
  //links
  div a {
-   color: $color-4;
+   color: $color-2;
    &:hover {
      color: $color-3;
    }
@@ -76,6 +76,11 @@ h3 {
    &:hover {
      color: $color-3;
    }
+ }
+
+ //changes color of designer name in aside, just an option
+ .designer-name {
+   color: $color-1;
  }
  
  

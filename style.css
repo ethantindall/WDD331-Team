@@ -416,7 +416,7 @@ footer {
 }
 
 div a {
-  color: #05d9eb;
+  color: #00567b;
 }
 
 div a:hover {
@@ -431,6 +431,10 @@ footer a {
 aside a:hover,
 footer a:hover {
   color: #FF2A6D;
+}
+
+.designer-name {
+  color: #01012B;
 }
 
 header {
@@ -521,11 +525,11 @@ footer a:hover {
   div[role="article"] {
     padding: 20px;
   }
-  .page-wrapper {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 15% 70% 15%;
-        grid-template-columns: 15% 70% 15%;
+  .page-wrapper h3 {
+    font-size: 26px;
+  }
+  .page-wrapper p {
+    font-size: 18px;
   }
   .intro {
     -ms-grid-column: 1;

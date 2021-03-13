@@ -4,8 +4,14 @@
     padding: 20px;
   }
   .page-wrapper {
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
+    //display: grid;
+    //grid-template-columns: 15% 70% 15%;
+    h3 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 18px;
+    }
   }
 .intro {
   grid-column: 1/4;

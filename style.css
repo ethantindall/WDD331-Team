@@ -555,6 +555,10 @@ footer a:hover {
         grid-template-columns: 1fr 1fr 2fr 1fr;
     grid-gap: 40px;
   }
+  #zen-intro div,
+  #zen-supporting div {
+    padding: 35px 35px;
+  }
   #zen-requirements {
     display: block;
   }

@@ -433,10 +433,6 @@ footer a:hover {
   color: #FF2A6D;
 }
 
-.designer-name {
-  color: #01012B;
-}
-
 header {
   text-align: center;
   width: 100%;
@@ -498,6 +494,31 @@ footer a:hover {
   background-color: #01012B;
   -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
           clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+}
+
+.designer-name {
+  color: #d1f7ff;
+  text-decoration: none;
+}
+
+nav ul li {
+  font-size: 12px;
+}
+
+.design-name {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.next, .viewall, .view-css, .css-resources, .zen-faq, .zen-submit, .zen-translations {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.select, .archives, .resources {
+  margin-bottom: 2px;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 40em) {

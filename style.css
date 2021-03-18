@@ -521,6 +521,31 @@ nav ul li {
   font-size: 20px;
 }
 
+#zen-summary {
+  -webkit-clip-path: polygon(12% 12%, 16% 0, 100% 0, 100% 89%, 100% 100%, 89% 100%, 0 100%, 0 12%);
+          clip-path: polygon(12% 12%, 16% 0, 100% 0, 100% 89%, 100% 100%, 89% 100%, 0 100%, 0 12%);
+}
+
+#zen-preamble, #zen-benefits {
+  -webkit-clip-path: polygon(77% 0, 83% 9%, 100% 9%, 100% 89%, 100% 100%, 89% 100%, 0 100%, 0 0);
+          clip-path: polygon(77% 0, 83% 9%, 100% 9%, 100% 89%, 100% 100%, 89% 100%, 0 100%, 0 0);
+}
+
+#zen-explanation {
+  -webkit-clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 100%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+          clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 100%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+}
+
+#zen-participation {
+  -webkit-clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 92%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+          clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 92%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+}
+
+#zen-requirements {
+  -webkit-clip-path: polygon(7% 0, 16% 0, 100% 0, 100% 96%, 94% 100%, 85% 100%, 0 100%, 0 7%);
+          clip-path: polygon(7% 0, 16% 0, 100% 0, 100% 96%, 94% 100%, 85% 100%, 0 100%, 0 7%);
+}
+
 @media only screen and (min-width: 40em) {
   header {
     text-align: center;
@@ -531,14 +556,8 @@ nav ul li {
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40%, 0% 40%);
             clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40%, 0% 40%);
   }
-  aside {
-    padding: 55px 10px 60px 10px;
-    width: 200px;
-    text-align: left;
-    position: absolute;
-    top: 300px;
-    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
-            clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
+  body {
+    background-image: url("/partials/viewports/medium.svg");
   }
 }
 
@@ -610,6 +629,15 @@ nav ul li {
   body {
     margin-left: 0.25fr;
     margin-right: 0.25fr;
+  }
+  aside {
+    padding: 55px 10px 60px 10px;
+    width: 200px;
+    text-align: left;
+    position: absolute;
+    top: 300px;
+    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
+            clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
   }
 }
 /*# sourceMappingURL=style.css.map */

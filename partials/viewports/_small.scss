@@ -21,7 +21,8 @@ h3 {
  body {
     width: 100%;
     background-color: $color-1;
-    
+    background-image: url("/partials/viewports/small.svg");
+
  }
  
  abbr[title] {
@@ -157,4 +158,19 @@ nav ul li {
 .select, .archives, .resources {
   margin-bottom: 2px;
   font-size: 20px;
+}
+#zen-summary {
+  clip-path: polygon(12% 12%, 16% 0, 100% 0, 100% 89%, 100% 100%, 89% 100%, 0 100%, 0 12%);
+}
+#zen-preamble, #zen-benefits {
+  clip-path: polygon(77% 0, 83% 9%, 100% 9%, 100% 89%, 100% 100%, 89% 100%, 0 100%, 0 0);
+}
+#zen-explanation {
+  clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 100%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+}
+#zen-participation {
+  clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 92%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+}
+#zen-requirements {
+  clip-path: polygon(7% 0, 16% 0, 100% 0, 100% 96%, 94% 100%, 85% 100%, 0 100%, 0 7%);
 }

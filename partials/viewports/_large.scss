@@ -63,4 +63,12 @@
     margin-left: 0.25fr;
     margin-right: 0.25fr;
   }
+  aside {
+    padding: 55px 10px 60px 10px;
+    width: 200px;
+    text-align: left;
+    position: absolute;
+    top: 300px;
+    clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
+}
 }

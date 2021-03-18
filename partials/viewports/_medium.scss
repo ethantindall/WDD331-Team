@@ -8,15 +8,10 @@
                     linear-gradient(127deg, #00567b, rgba(0,255,0,0) 70.71%);
         clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40% , 0% 40%);
     }
-    
-    aside {
-        padding: 55px 10px 60px 10px;
-        width: 200px;
-        text-align: left;
-        position: absolute;
-        top: 300px;
-        clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
+    body {
+        background-image: url("/partials/viewports/medium.svg");
     }
+
 
 }
 

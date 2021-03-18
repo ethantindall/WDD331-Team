@@ -365,6 +365,7 @@ div[role="article"] {
 body {
   width: 100%;
   background-color: #01012B;
+  background-image: url("/partials/viewports/small.svg");
 }
 
 abbr[title] {
@@ -372,13 +373,20 @@ abbr[title] {
 }
 
 #zen-intro,
-#zen-supporting,
-#zen-requirements {
+#zen-supporting {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 10px 2fr 10px;
       grid-template-columns: 10px 2fr 10px;
   grid-gap: 20px;
+}
+
+#zen-requirements {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10px 2fr 10px;
+      grid-template-columns: 10px 2fr 10px;
+  grid-gap: 0px;
 }
 
 header[role="banner"] {

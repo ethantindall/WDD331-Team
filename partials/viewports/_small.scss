@@ -122,25 +122,6 @@ h3 {
    }
 }
 
-footer {
-  grid-column: 1/-1;
-  text-align: center;
-  background-color: $color-3;
-  width: 100%;
-  padding: 30px 0;
-  a {
-    color: $color-1;
-    text-decoration: none;
-    font-size: 1.5rem;
-    padding: 20px;
-  }
-  a:hover {
-    background-color: $color-1;
-    clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
-
-  }
-}
-
 .designer-name {
   color: $color-5;
   text-decoration: none;
@@ -179,4 +160,42 @@ nav ul li {
 }
 #zen-requirements {
   clip-path: polygon(7% 0, 16% 0, 100% 0, 100% 96%, 94% 100%, 85% 100%, 0 100%, 0 7%);
+}
+
+footer {
+  grid-column: 1/-1;
+  text-align: center;
+  background-color: $color-3;
+  width: 100%;
+  padding: 30px 0;
+  a {
+    color: $color-1;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+
+  /* 
+   Original
+    a:hover {
+    background-color: $color-1;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+    
+  } */
+
+  a:hover {
+    animation: glitch .5s linear forwards;
+    background: linear-gradient(0deg, $color-4 25%, transparent 30%) 0 0 / 0.5em 0.5em
+                , linear-gradient(0deg, $color-1 50%, transparent 50%) 0 0 / 3em 3em;
+    color: $color-3;
+    font-family: 'Orbitron', sans-serif;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+  }
+}
+
+@keyframes glitch {
+  100% {
+    background-position: 0 0, 0 -3em;
+    background-size: 0 0, 1em 6em;
+  }
 }

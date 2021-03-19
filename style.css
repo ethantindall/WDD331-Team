@@ -483,27 +483,6 @@ aside ul {
   list-style-type: none;
 }
 
-footer {
-  grid-column: 1/-1;
-  text-align: center;
-  background-color: #FF2A6D;
-  width: 100%;
-  padding: 30px 0;
-}
-
-footer a {
-  color: #01012B;
-  text-decoration: none;
-  font-size: 1.5rem;
-  padding: 20px;
-}
-
-footer a:hover {
-  background-color: #01012B;
-  -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
-          clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
-}
-
 .designer-name {
   color: #d1f7ff;
   text-decoration: none;
@@ -552,6 +531,53 @@ nav ul li {
 #zen-requirements {
   -webkit-clip-path: polygon(7% 0, 16% 0, 100% 0, 100% 96%, 94% 100%, 85% 100%, 0 100%, 0 7%);
           clip-path: polygon(7% 0, 16% 0, 100% 0, 100% 96%, 94% 100%, 85% 100%, 0 100%, 0 7%);
+}
+
+footer {
+  grid-column: 1/-1;
+  text-align: center;
+  background-color: #FF2A6D;
+  width: 100%;
+  padding: 30px 0;
+  /* 
+   Original
+    a:hover {
+    background-color: $color-1;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+    
+  } */
+}
+
+footer a {
+  color: #01012B;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+footer a:hover {
+  -webkit-animation: glitch .5s linear forwards;
+          animation: glitch .5s linear forwards;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(25%, #05d9eb), color-stop(30%, transparent)) 0 0/0.5em 0.5em, -webkit-gradient(linear, left bottom, left top, color-stop(50%, #01012B), color-stop(50%, transparent)) 0 0/3em 3em;
+  background: linear-gradient(0deg, #05d9eb 25%, transparent 30%) 0 0/0.5em 0.5em, linear-gradient(0deg, #01012B 50%, transparent 50%) 0 0/3em 3em;
+  color: #FF2A6D;
+  font-family: 'Orbitron', sans-serif;
+  -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+          clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+}
+
+@-webkit-keyframes glitch {
+  100% {
+    background-position: 0 0, 0 -3em;
+    background-size: 0 0, 1em 6em;
+  }
+}
+
+@keyframes glitch {
+  100% {
+    background-position: 0 0, 0 -3em;
+    background-size: 0 0, 1em 6em;
+  }
 }
 
 @media only screen and (min-width: 40em) {

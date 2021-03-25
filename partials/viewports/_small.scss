@@ -20,11 +20,20 @@ h3 {
  
  body {
     width: 100%;
+    margin: 15px auto;
     background-color: $color-1;
     background-image: url("/partials/viewports/big.svg");
 
  }
  
+ p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3  {
+  padding-top: 10px;
+  padding-left: 20px;
+}
  abbr[title] {
    text-decoration: none;
  }
@@ -47,8 +56,8 @@ h3 {
    grid-column: 1/4;
    text-align: center;
    font-family: "Orbitron", serif;
-   background-color: $color-2;
-   color: $color-5;
+   background-color: $color-3;  
+   color: $color-1;
  }
  
  .summary,
@@ -89,21 +98,20 @@ h3 {
  header {
     text-align: center;
     width: 100%;
+    padding: 10px;
     margin: 10px auto;
-    height: 7rem;
-    background: linear-gradient(217deg, $color-3, rgba(255,0,0,0) 70.71%),
-                linear-gradient(127deg, $color-2, rgba(0,255,0,0) 70.71%);
+    height: 7rem; 
     clip-path: polygon(0% 0%, 75% 0%, 100% 60%, 100% 100%, 25% 100%, 0% 40%);
  
     h1{
        font-family: 'Orbitron', sans-serif;
-       font-size: 1.5rem;
-       padding-top: 30px;
+       font-size: 3rem;
+       margin-top: 10px;
     } 
     h2 {
        font-family: 'Barlow', sans-serif;
-       font-size: 1.1rem;
-       margin: -15px 0 15px 0px;
+       font-size: 1.5rem;
+       margin: -30px 0 15px 0px;
  
     }
  }
@@ -172,7 +180,7 @@ footer {
     color: $color-1;
     text-decoration: none;
     font-size: 1.5rem;
-    padding: 20px;
+    padding: 20px 23px 20px 23px; 
   }
 
   /* 
@@ -190,6 +198,7 @@ footer {
     color: $color-3;
     font-family: 'Orbitron', sans-serif;
     clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
+
   }
 }
 

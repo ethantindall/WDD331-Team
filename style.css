@@ -364,8 +364,19 @@ div[role="article"] {
 
 body {
   width: 100%;
+  margin: 15px auto;
   background-color: #01012B;
   background-image: url("/partials/viewports/big.svg");
+}
+
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 abbr[title] {
@@ -395,8 +406,8 @@ header[role="banner"] {
   grid-column: 1/4;
   text-align: center;
   font-family: "Orbitron", serif;
-  background-color: #00567b;
-  color: #d1f7ff;
+  background-color: #FF2A6D;
+  color: #01012B;
 }
 
 .summary,
@@ -444,23 +455,23 @@ footer a:hover {
 header {
   text-align: center;
   width: 100%;
+  padding: 10px;
   margin: 10px auto;
   height: 7rem;
-  background: linear-gradient(217deg, #FF2A6D, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #00567b, rgba(0, 255, 0, 0) 70.71%);
   -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 60%, 100% 100%, 25% 100%, 0% 40%);
           clip-path: polygon(0% 0%, 75% 0%, 100% 60%, 100% 100%, 25% 100%, 0% 40%);
 }
 
 header h1 {
   font-family: 'Orbitron', sans-serif;
-  font-size: 1.5rem;
-  padding-top: 30px;
+  font-size: 3rem;
+  margin-top: 10px;
 }
 
 header h2 {
   font-family: 'Barlow', sans-serif;
-  font-size: 1.1rem;
-  margin: -15px 0 15px 0px;
+  font-size: 1.5rem;
+  margin: -30px 0 15px 0px;
 }
 
 aside {
@@ -552,7 +563,7 @@ footer a {
   color: #01012B;
   text-decoration: none;
   font-size: 1.5rem;
-  padding: 20px;
+  padding: 20px 23px 20px 23px;
 }
 
 footer a:hover {
@@ -586,7 +597,6 @@ footer a:hover {
     width: 100%;
     margin: 10px auto;
     height: 7rem;
-    background: linear-gradient(217deg, #FF2A6D, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #00567b, rgba(0, 255, 0, 0) 70.71%);
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40%, 0% 40%);
             clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40%, 0% 40%);
   }

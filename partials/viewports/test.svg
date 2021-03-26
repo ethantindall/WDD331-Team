@@ -1,43 +1,80 @@
-<svg width="1500.0000000000002" height="300" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+<svg width="1500" height="300" xmlns="http://www.w3.org/2000/svg">
+<style>
+path {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: circuits 3s linear forwards;
+}
+
+@keyframes circuits {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+ellipse {
+    stroke: #FF2A6D;
+      animation: changeColor 2.5s linear forwards;
+}
+@keyframes changeColor {
+    99% {stroke: #FF2A6D;}
+    100% {stroke: black;}
+}
+
+</style>
 
  <g id="Layer_1">
   <title>Layer 1</title>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="137" x2="-7" y1="137" x1="395.7236" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" stroke="#000" fill="none"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="151.66667" x2="-7" y1="151.66667" x1="351.39024" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" stroke="#000" fill="none"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="169" x2="-7" y1="169" x1="269.05694" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" stroke="#000" fill="none"/>
-  <path stroke-width="5" id="svg_5" d="m-7, 122
-                                    h363, 
+  <path stroke-width="5" id="svg_5" d="m-7, 120
+                                    h363 
                                     l100,-88
-                                    h" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#ff0000" fill="#fff"/>
-  <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="394.16454" y1="137.43552" x2="471.94232" y2="68.917" id="svg_6" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000"/>
-  <path stroke-width="5" id="svg_7" d="m544.14869,69.53968l-73.5238,0" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="#fff"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="34.69844" x2="460.05513" y1="34.69844" x1="674.87353" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-width="5" fill="none" stroke="#000"/>
-  <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="261.08501" y1="254.72129" x2="353.49693" y2="173.31079" id="svg_10" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000" transform="rotate(-90 307.29095458984375,214.01603698730466) "/>
-  <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" x1="345.24496" y1="239.89154" x2="437.81659" y2="155.9487" id="svg_11" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(-90 391.53076171875,197.92013549804685) " stroke="#000"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_12" y2="259.48552" x2="346.53344" y1="259.48552" x1="588.43812" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" fill="none" stroke="#000"/>
-  <path stroke-width="5" id="svg_13" d="m762.55894,244.1325l-330.66667,0" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="#fff"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_54" y2="137" x2="1184.56903" y1="137" x1="1546.94303" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" fill="none" stroke="#000"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_55" y2="151.66667" x2="1137.75854" y1="151.66667" x1="1508.70721" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" fill="none" stroke="#000"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_56" y2="122.33333" x2="1190.37392" y1="122.33333" x1="1521.04059" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" stroke="#000" fill="none"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_57" y2="169" x2="1210.34139" y1="169" x1="1541.00806" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" stroke="#000" fill="none"/>
-  <line fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="1097.57208" y1="116.98696" x2="1197.57208" y2="28.89172" id="svg_58" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(-90 1147.5708007812502,72.93931579589834) "/>
-  <path stroke-width="5" id="svg_59" d="m1092.69403,131.87908l100,-88.09524" transform="rotate(-90 1142.6939697265627,87.83145141601553) " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="#fff"/>
-  <path stroke-width="5" id="svg_60" d="m1100.14449,38.35975l-362.374,0" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="#000" fill="#fff"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_61" y2="23.69308" x2="775.2668" y1="23.69308" x1="1105.93347" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" stroke="#000" fill="none"/>
-  <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="1067.69404" y1="214.1593" x2="1138.84788" y2="151.47614" id="svg_62" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000"/>
-  <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="1106" y1="260" x2="1211.9248" y2="168.78383" id="svg_63" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_64" y2="213.70999" x2="952.85237" y1="213.70999" x1="1069.23332" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" fill="none" stroke="#000"/>
-  <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" x1="958.31906" y1="277.44053" x2="1029.47291" y2="214.75738" id="svg_66" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_67" y2="259.80373" x2="978" y1="260" x1="1107.51456" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" fill="none" stroke="#000"/>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_68" y2="276.20997" x2="709.1024" y1="276.20997" x1="959.85836" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="5" fill="none" stroke="#000"/>
-  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="545.23423" cy="69.68752" id="svg_69" rx="3.125" ry="3.125"/>
-  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="677.26545" cy="35.31252" id="svg_71" rx="3.125" ry="3.125"/>
-  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="773.35918" cy="24.37503" id="svg_72" rx="3.125" ry="3.125"/>
-  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="735.07794" cy="38.43752" id="svg_73" rx="3.125" ry="3.125"/>
-  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="949.14039" cy="213.43748" id="svg_74" rx="3.125" ry="3.125"/>
-  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="707.7342" cy="275.93746" id="svg_75" rx="3.125" ry="3.125"/>
-  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="763.20294" cy="243.90622" id="svg_76" rx="3.125" ry="3.125"/>
-  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="589.76549" cy="259.53122" id="svg_77" rx="3.125" ry="3.125"/>
+                                    h215" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+   <path stroke-width="5" d="m-7, 135
+                            h400
+                            l78, -68                            
+                            h75
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+     <path stroke-width="5" d="m-7, 150
+                            h360
+                            l85, 95                            
+                            h320
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+     <path stroke-width="5" d="m-7, 165
+                            h275
+                            l84, 95                            
+                            h235
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+   <path stroke-width="5" d="m1500, 120
+                                h-310
+                            l-88, -100
+                            h-325
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+   <path stroke-width="5" d="m1500, 135
+                                h-320
+                            l-84, -95
+                            h-355
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+
+   <path stroke-width="5" d="m1500, 150
+                                h-360
+                            l-74, 65
+                            h-115
+                            h80
+                            l-74, 65
+                            h-245
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+    <path stroke-width="5" d="m1500, 165
+                                h-285
+                            l-74, 95
+                            h-160
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+ 
+ <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="549" cy="67" id="svg_69" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="675" cy="32" id="svg_71" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="775" cy="20" id="svg_72" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="737" cy="40" id="svg_73" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="949" cy="215" id="svg_74" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="710" cy="280" id="svg_75" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="763" cy="245" id="svg_76" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="589" cy="260" id="svg_77" rx="3.125" ry="3.125"/>
  </g>
 </svg>

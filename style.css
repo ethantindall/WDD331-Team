@@ -406,7 +406,6 @@ header[role="banner"] {
   grid-column: 1/4;
   text-align: center;
   font-family: "Orbitron", serif;
-  background-color: #FF2A6D;
   color: #01012B;
 }
 
@@ -455,11 +454,11 @@ footer a:hover {
 header {
   text-align: center;
   width: 100%;
-  padding: 10px;
-  margin: 10px auto;
-  height: 7rem;
-  -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 60%, 100% 100%, 25% 100%, 0% 40%);
-          clip-path: polygon(0% 0%, 75% 0%, 100% 60%, 100% 100%, 25% 100%, 0% 40%);
+  margin: 10px 0;
+  height: 200px;
+  padding: 0;
+  background: url("/partials/viewports/bg2.svg") no-repeat;
+  background-color: #FF2A6D;
 }
 
 header h1 {
@@ -591,14 +590,9 @@ footer a:hover {
   }
 }
 
-@media only screen and (min-width: 40em) {
+@media screen and (min-width: 40em) {
   header {
     text-align: center;
-    width: 100%;
-    margin: 10px auto;
-    height: 7rem;
-    -webkit-clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40%, 0% 40%);
-            clip-path: polygon(0% 0%, 75% 0%, 85% 60%, 100% 60%, 100% 100%, 25% 100%, 15% 40%, 0% 40%);
   }
 }
 

@@ -1,0 +1,80 @@
+<svg width="1500" height="300" xmlns="http://www.w3.org/2000/svg">
+<style>
+path {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: circuits 3s linear forwards;
+}
+
+@keyframes circuits {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+ellipse {
+    stroke: #FF2A6D;
+      animation: changeColor 2.5s linear forwards;
+}
+@keyframes changeColor {
+    99% {stroke: #FF2A6D;}
+    100% {stroke: black;}
+}
+
+</style>
+
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path stroke-width="5" id="svg_5" d="m-7, 120
+                                    h363 
+                                    l100,-88
+                                    h215" opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+   <path stroke-width="5" d="m-7, 135
+                            h400
+                            l78, -68                            
+                            h75
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+     <path stroke-width="5" d="m-7, 150
+                            h360
+                            l85, 95                            
+                            h320
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+     <path stroke-width="5" d="m-7, 165
+                            h275
+                            l84, 95                            
+                            h235
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+   <path stroke-width="5" d="m1500, 120
+                                h-310
+                            l-88, -100
+                            h-325
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+   <path stroke-width="5" d="m1500, 135
+                                h-320
+                            l-84, -95
+                            h-355
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+
+   <path stroke-width="5" d="m1500, 150
+                                h-360
+                            l-74, 65
+                            h-115
+                            h80
+                            l-74, 65
+                            h-245
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+    <path stroke-width="5" d="m1500, 165
+                                h-285
+                            l-74, 95
+                            h-160
+                                   " opacity="undefined" stroke-linecap="undefined" stroke-linejoin="undefined" stroke="black" fill="none"/>
+ 
+ <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="549" cy="67" id="svg_69" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="675" cy="32" id="svg_71" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="775" cy="20" id="svg_72" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="737" cy="40" id="svg_73" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="949" cy="215" id="svg_74" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="710" cy="280" id="svg_75" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="763" cy="245" id="svg_76" rx="3.125" ry="3.125"/>
+  <ellipse fill="none" stroke="#000" stroke-width="5" stroke-dasharray="null" stroke-opacity="null" fill-opacity="null" opacity="undefined" cx="589" cy="260" id="svg_77" rx="3.125" ry="3.125"/>
+ </g>
+</svg>

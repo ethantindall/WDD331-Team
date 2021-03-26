@@ -22,8 +22,8 @@ h3 {
     width: 100%;
     margin: 15px auto;
     background-color: $color-1;
-    background-image: url("/partials/viewports/big.svg");
-
+    //background-image: url("/partials/viewports/big.svg");
+ 
  }
  
  p {
@@ -51,12 +51,12 @@ h3 {
   grid-template-columns: 10px 2fr 10px;
   grid-gap: 0px;
  }
- 
+  
  header[role="banner"] {
    grid-column: 1/4;
    text-align: center;
    font-family: "Orbitron", serif;
-   background-color: $color-3;  
+   //background-color: $color-3;  
    color: $color-1;
  }
  
@@ -98,15 +98,16 @@ h3 {
  header {
     text-align: center;
     width: 100%;
-    padding: 10px;
     margin: 10px auto;
-    height: 7rem; 
-    clip-path: polygon(0% 0%, 75% 0%, 100% 60%, 100% 100%, 25% 100%, 0% 40%);
- 
+    height: 300px; 
+    background: url("/partials/viewports/test.svg") no-repeat center center; 
+
+    background-color: $color-3;
+    
     h1{
        font-family: 'Orbitron', sans-serif;
        font-size: 3rem;
-       margin-top: 10px;
+       margin-top: 90px;
     } 
     h2 {
        font-family: 'Barlow', sans-serif;
@@ -201,6 +202,7 @@ footer {
 
   }
 }
+/*-------Header Animation---------*/
 
 @keyframes glitch {
   100% {

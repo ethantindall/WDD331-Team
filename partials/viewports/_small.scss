@@ -210,3 +210,47 @@ footer {
     background-size: 0 0, 1em 6em;
   }
 }
+
+#zen-summary {
+  clip-path: polygon(11% 8%, 18% 0, 100% 0, 100% 100%, 13% 100%, 0 100%, 0 26%, 0 9%);
+          transition: clip-path 1s;
+          border: solid 7px #D1F7FF;
+}
+#zen-preamble, #zen-benefits {
+  clip-path: polygon(0 0, 78% 0, 83% 9%, 100% 10%, 100% 100%, 12% 100%, 0 100%, 0 91%);
+  transition: clip-path 1s;
+  border: solid 7px #D1F7FF;
+}
+#zen-explanation {
+  -webkit-clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 100%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+          clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 100%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+          border: solid 7px #D1F7FF;
+}
+#zen-participation {
+  -webkit-clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 92%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+          clip-path: polygon(11% 5%, 16% 0, 100% 0, 100% 92%, 94% 100%, 85% 100%, 0 100%, 0 5%);
+          border: solid 7px #D1F7FF;
+}
+#zen-requirements {
+  clip-path: polygon(0 0, 93% 0, 100% 9%, 100% 92%, 100% 100%, 6% 100%, 0 91%, 0 8%);
+  transition: clip-path 2s;
+  transition: border 2s;
+  border: solid 7px #D1F7FF;
+}
+#zen-requirements:hover, #zen-participation:hover, #zen-explanation:hover, #zen-preamble:hover, #zen-benefits:hover, #zen-summary:hover{
+   animation: borderchange 2s ease-in-out 2 alternate;
+}
+@keyframes borderchange{
+  100% {
+    border-top: solid 7px #FF2A6D;
+  }
+  75% {
+    border-right: solid 7px #FF2A6D;
+  }
+  50% {
+    border-bottom: solid 7px #FF2A6D;
+  }
+  25% {
+    border-left: solid 7px #FF2A6D;
+  }
+}

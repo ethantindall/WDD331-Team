@@ -20,7 +20,7 @@ h3 {
  
  body {
     width: 100%;
-    margin: 15px auto;
+    margin: 15px auto 0 auto;
     background-color: $color-1;
     //background-image: url("/partials/viewports/big.svg");
  
@@ -123,7 +123,7 @@ h3 {
    flex-direction: column;
    width: 100%;
    text-align: center;
-   padding-bottom: 150px;
+   padding-bottom: 75px;
    ul {
      margin: 0;
      padding: 0;
@@ -182,24 +182,17 @@ footer {
     text-decoration: none;
     font-size: 1.5rem;
     padding: 20px 23px 20px 23px; 
+    display: block;
+    width: 100px;
+    margin: 0 auto;
   }
-
-  /* 
-   Original
-    a:hover {
-    background-color: $color-1;
-    clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
-    
-  } */
 
   a:hover {
     animation: glitch .5s linear forwards;
     background: linear-gradient(0deg, $color-4 25%, transparent 30%) 0 0 / 0.5em 0.5em
                 , linear-gradient(0deg, $color-1 50%, transparent 50%) 0 0 / 3em 3em;
     color: $color-3;
-    font-family: 'Orbitron', sans-serif;
     clip-path: polygon(0% 0%, 90% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 90%);
-
   }
 }
 /*-------Header Animation---------*/
